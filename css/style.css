@@ -1,0 +1,882 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+  background: #1E172F;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+ul{
+  display: flex;
+  list-style: none;
+  width: 22%;
+  justify-content: space-between;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.pausa{
+  color:#7C7785;
+}
+.descarga{
+  background: linear-gradient(to right, #8640D5, #047ED5);
+  border: none;
+  border-radius: 5%;
+  color: aliceblue;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 3%;
+}
+/*encabezado*/
+header{
+  display: flex;
+}
+.caja1{
+  display: flex;
+  background:#2E2550 ;
+  width: 50%;
+  color: aliceblue;
+  
+  justify-content: end;
+}
+.subcaja1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  align-items: flex-start;
+}
+.titulo1{
+  font-size: 70px;
+}
+.parrafo1{
+  margin-top: 5%;
+  font-size: 26px;
+}
+.caja2{
+  background: linear-gradient(rgba(19, 19, 90, 0.575), rgba(19, 19, 90, 0.575)), url(../img/fondo.jpg);
+  width: 50%;
+}
+.caja2 img{
+  margin-top:18%;
+  margin-left: 15%;
+  height: 70%;
+}
+.botones{
+  border: #7C7785 solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 5%;
+  width: 52%;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.boton1{
+  background: aliceblue;
+  color: #F41486;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: aliceblue solid;
+  border-radius: 5px;
+  padding:10px 32px 10px 32px;
+  width: auto;
+  margin-right: 5px;
+}
+.boton2{
+  background: transparent;
+  color: aliceblue;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: aliceblue solid;
+  border-radius: 5px;
+  padding:10px 32px 10px 32px;
+  width: auto;
+}
+
+/*Contenido*/
+
+.uno{
+  background: #F1F2F7;
+}
+.contenedor{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+}
+.title1{
+  color: #F41486;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding-top: 3%;
+  font-weight: 900;
+}
+.title2{
+  color: #ce1f79;
+  font-weight: 100;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.title3{
+  color: #F41486;
+  font-size: 25px;
+  font-weight: 900;
+}
+.caja3{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.caja3 img{
+  width: 50%;
+  display: flex;
+  margin-right: 10%;
+}
+.caja4{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chulito{
+  width:8%;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+.texto1{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #7C7785;
+}
+.texto2{
+  width: 50%;
+  font-size: 20px;
+  color: #7C7785;
+  margin-bottom: 20px;
+}
+/*contenido tarjetas*/
+.dos{
+  background: #1E172F;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 125vh;
+}
+.cajita{
+  background:rgb(225, 232, 238);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+.caja5{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title4{
+  color: aliceblue;
+  font-size: 50px;
+  padding: 40px;
+}
+.rosita{
+  color: #F41486;
+  padding-bottom:10px;
+}
+.subtitulo{
+  color:#2E2550;
+  padding-bottom:10px;
+}
+.texto3{
+  width: 90%;
+  text-align: center;
+  font-size: 20px;
+  color: #c7c1d1;
+  margin-bottom: 40px;
+}
+.caja6{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+.tarjeta{
+  background: aliceblue;
+  flex-direction: column;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  margin: 1%;
+  height: 95%;
+}
+.icono{
+  width: 25%;
+  margin-top:5%;
+  margin-bottom: 1%;
+}
+.subcajita{
+  border-radius:0 0 10px 10px ;
+  background:rgb(225, 232, 238);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4%;
+}
+.lista-tarjeta{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5%;
+}
+.lista{
+  padding: 2%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+li .icon{
+  margin-right: 115px;
+}
+.icon{
+  width: 5%;
+}
+.texto4{
+  width: 80%;
+  font-size: 25px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.rosa{
+  background: linear-gradient(to right,#EB66AB , #F41486);
+  border: none;
+  border-radius: 5%;
+  color: aliceblue;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 5%;
+}
+.sucribete{
+  background:#2E2550 ;
+  border: none;
+  border-radius: 5%;
+  color: aliceblue;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 5%;
+}
+.nros{
+  font-size: 50px;
+  font-weight: 100;
+}
+
+/*footer*/
+footer{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+.caja7{
+  display: flex;
+  font-weight: 100;
+  width: 50%;
+  padding-left:10%;
+}
+.texto-pie{
+  color: #7C7785;
+}
+.caja8{
+  display: flex;
+  width: 60%;
+  height: 6vh;
+  justify-content: end;
+  padding-right:10% ;
+}
+.redes{
+  width: 4%;
+  margin: 10px;
+}
+.resalta{
+  color:#F41486;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/*-----------------------------------*/
+/* media query de computador de mesa mediano*/
+@media screen and (max-width: 1500px){
+  /*navegador*/
+    ul{
+      width: 32%;
+    }
+    /*encabezado*/
+    header{
+      height: 70vh;
+    }
+    .subcaja1{
+      width: 80%;
+    }
+    .titulo1{
+      font-size: 60px;
+    }
+    .parrafo1{
+      font-size: 20px;
+    }
+    .botones{
+      width: 60%;
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }
+    /*contenido*/
+    .dos{
+      height: 100vh;
+    }
+    .caja3{
+      justify-content: center;
+    }
+    .caja3 img{
+      margin: 0;
+    }
+    .chulito{
+      width:5%;
+      margin-bottom: 10px;
+    }
+    .texto1{
+      width: 100%;
+    }
+    .texto2{
+      width: 90%;
+      font-size: 20px;
+    }
+    /*contenido de tarjetas*/
+    .caja5{
+      width: 80%;
+    }
+    .caja6{
+      width: 90%;
+    }
+    .tarjeta{
+      margin: 1%;
+      height: 85%;
+    }
+    .icono{
+      width: 20%;
+    }
+    .lista-tarjeta{
+        padding: 5%;
+    }
+    .lista{
+      padding: 2%;
+    }
+    li .icon{
+      margin-right: 80px;
+    }
+    .icon{
+      width: 8%;
+    }
+    .texto3{
+      width: 80%;
+      font-size: 18px;
+    }
+    .texto4{
+      width: 90%;
+      font-size: 17px;
+      margin-bottom: 15px;
+    }
+    .nros{
+      font-size: 45px;
+    }
+    /*footer*/
+    .caja7{
+      width: 100%;
+    }
+    .caja8{
+      width: 100%;
+      height: 6vh;
+    }
+    .redes{
+      width: 6%;
+      margin: 10px;
+    }
+}
+/*-----------------------------------*/
+/* media query de laptop*/
+@media screen and (max-width: 1200px){
+/*navegador*/
+  ul{
+    width: 32%;
+  }
+  /*encabezado*/
+  header{
+    height: 70vh;
+  }
+  .subcaja1{
+    width: 80%;
+  }
+  .titulo1{
+    font-size: 60px;
+  }
+  .parrafo1{
+    font-size: 20px;
+  }
+  .caja2 img{
+    margin-top:22%;
+    margin-left: 33%;
+    height: 60%;
+  }
+  .botones{
+    width: 80%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  .boton1{
+    padding:10px 32px 10px 32px;
+    width: 60%;
+    margin-right: 5px;
+  }
+  /*contenido*/
+  .dos{
+    height: 100vh;
+  }
+  .caja3{
+    justify-content: center;
+  }
+  .caja3 img{
+    margin: 0;
+  }
+  .chulito{
+    width:6%;
+    margin-bottom: 10px;
+  }
+  .texto1{
+    width: 100%;
+  }
+  .texto2{
+    width: 90%;
+    font-size: 20px;
+  }
+  /*contenido de tarjetas*/
+  .caja5{
+    width: 80%;
+  }
+  .caja6{
+    width: 90%;
+  }
+  .tarjeta{
+    margin: 1%;
+    height: 85%;
+  }
+  .icono{
+    width: 20%;
+  }
+  .lista-tarjeta{
+      padding: 5%;
+  }
+  .lista{
+    padding: 2%;
+  }
+  li .icon{
+    margin-right: 65px;
+  }
+  .icon{
+    width: 6%;
+  }
+  .texto3{
+    width: 80%;
+    font-size: 18px;
+  }
+  .texto4{
+    width: 90%;
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+  .nros{
+    font-size: 45px;
+  }
+  /*footer*/
+  .caja7{
+    width: 100%;
+  }
+  .caja8{
+    width: 100%;
+    height: 5vh;
+  }
+  .redes{
+    width: 6%;
+    margin: 10px;
+  }
+}
+/*-----------------------------------*/
+/* media query de tablet*/
+@media screen and (max-width: 992px){
+  /*navegador*/
+    ul{
+      width: 42%;
+    }
+    /*encabezado*/
+    header{
+      height: 60vh;
+    }
+    .subcaja1{
+      width: 90%;
+    }
+    .titulo1{
+      font-size: 50px;
+    }
+    .parrafo1{
+      font-size: 18px;
+    }
+    .botones{
+      width: 90%;
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }
+    /*contenido*/
+    .dos{
+      height: 100vh;
+    }
+    .caja3{
+      justify-content: center;
+    }
+    .caja3 img{
+      margin: 0;
+      width: 80%;
+    }
+    .chulito{
+      width:6%;
+      margin-bottom: 10px;
+    }
+    .texto1{
+      width: 100%;
+    }
+    .texto2{
+      width: 90%;
+      font-size: 18px;
+    }
+    .texto1{
+      font-size: 18px;
+    }
+    /*contenido de tarjetas*/
+    .dos{
+      height: 85vh;
+    }
+    .caja5{
+      width: 90%;
+    }
+    .caja6{
+      width: 90%;
+    }
+    .tarjeta{
+      margin: 1%;
+      height: 90%;
+    }
+    .icono{
+      width: 18%;
+    }
+    .lista-tarjeta{
+        padding: 5%;
+    }
+    .lista{
+      padding: 2%;
+    }
+    li .icon{
+      margin-right: 40px;
+    }
+    .icon{
+      width: 6%;
+    }
+    .texto3{
+      width: 80%;
+      font-size: 17px;
+    }
+    .texto4{
+      width: 90%;
+      font-size: 15px;
+      margin-bottom: 15px;
+    }
+    .subcajita button{
+      font-size: 14px;
+    }
+    .nros{
+      font-size: 35px;
+    }
+    /*footer*/
+    .caja7{
+      width: 120%;
+    }
+    .caja8{
+      width: 90%;
+      height: 4vh;
+    }
+    .redes{
+      width: 6%;
+      margin: 10px;
+    }
+}
+/*-----------------------------------*/
+/* media query de telefono*/
+@media screen and (max-width: 768px){
+  /*navegador*/
+    ul{
+      width: 52%;
+    }
+    /*encabezado*/
+    header{
+      height: 50vh;
+    }
+    .titulo1{
+      font-size: 40px;
+    }
+    .parrafo1{
+      font-size: 16px;
+    }
+    .botones{
+      width: 90%;
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }
+    .boton1{
+      font-size: 15px;
+      padding:5px 18px 5px 18px;
+      width: auto;
+    }
+    .boton2{
+      font-size: 15px;
+      padding:5px 18px 5px 18px;
+      width: auto;
+    }
+    /*contenido*/
+    
+.title1{
+  font-size: 40px;
+}
+.title2{
+  color: #ce1f79;
+  font-weight: 100;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.title3{
+  color: #F41486;
+  font-size: 20px;
+  font-weight: 900;
+}
+.caja3{
+  height: 40vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.caja3 img{
+  width: 50%;
+  display: flex;
+  margin-right: 10%;
+}
+.caja4{
+  height: 40vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chulito{
+  width:8%;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+.texto1{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #7C7785;
+}
+.texto2{
+  width: 50%;
+  font-size: 20px;
+  color: #7C7785;
+  margin-bottom: 20px;
+}
+    /*a*/
+    .dos{
+      height: 50vh;
+    }
+    .contenedor{
+      height: 40vh;
+    }
+    .caja3{
+      justify-content: center;
+    }
+    .caja3 img{
+      margin: 0;
+      width: 80%;
+    }
+    .chulito{
+      width:6%;
+      margin-bottom: 10px;
+    }
+    .texto1{
+      width: 100%;
+      font-size: 16px;
+    }
+    .texto2{
+      width: 90%;
+      font-size: 16px;
+    }
+    .texto1{
+      font-size: 18px;
+    }
+    /*contenido de tarjetas*/
+    .dos{
+      height: auto;
+    }
+    .caja5{
+      width: 90%;
+    }
+    .caja6{
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+    }
+    .tarjeta{
+      margin: 1%;
+      height: 90%;
+      margin-bottom: 8%;
+    }
+    .icono{
+      width: 20%;
+    }
+    .lista-tarjeta{
+        padding: 5%;
+    }
+    .lista{
+      padding: 2%;
+    }
+    li .icon{
+      margin-right: 150px;
+    }
+    .icon{
+      width: 6%;
+    }
+    .texto3{
+      width: 80%;
+      font-size: 17px;
+    }
+    .texto4{
+      width: 90%;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    .subcajita button{
+      font-size: 16px;
+    }
+    .nros{
+      font-size: 45px;
+    }
+    /*footer*/
+    .caja7{
+      width: 100%;
+      font-size: 13px;
+    }
+    .caja8{
+      width: 90%;
+      height: 4vh;
+    }
+    .redes{
+      width: 8%;
+      margin: 8px;
+    }
+}
+/*-----------------------------------*/
+/* media query de smartphone*/
+@media screen and (max-width: 600px){
+    /*navegador*/
+      ul{
+        width: 62%;
+      }
+      /*encabezado*/
+      header{
+        height: 45vh;
+      }
+      .titulo1{
+        font-size: 35px;
+      }
+      .parrafo1{
+        font-size: 14px;
+      }
+      .botones{
+        width: 90%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      .boton1{
+        font-size: 12px;
+        padding:5px 16px 5px 16px;
+      }
+      .boton2{
+        font-size: 12px;
+        padding:5px 16px 5px 16px;
+        width: auto;
+      }
+      /*contenido*/
+      
+  .title1{
+    font-size: 30px;
+  }
+  .title2{
+    font-size: 25px;
+  }
+  .title3{
+    font-size: 16px;
+  }
+  .caja3{
+    height: 35vh;
+    width: 50%;
+  }
+  .caja3 img{
+    width: 80%;
+    display: flex;
+    margin-right: 10%;
+  }
+  .caja4{
+    height: 35vh;
+    width: 50%;
+  }
+      /*contenido de tarjetas*/
+      li .icon{
+        margin-right: 110px;
+      }
+      /*footer*/
+      footer{
+        height: 8vh;
+      }
+      .caja7{
+        width: 100%;
+        font-size: 12px;
+      }
+      .caja8{
+        width: 60%;
+        height: 4vh;
+      }
+      .redes{
+        width: 1%;
+        margin: 8px;
+      }
+    }
